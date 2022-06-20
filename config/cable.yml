@@ -7,6 +7,5 @@ test:
 production:
   adapter: redis
   # url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  # url: <%= ENV.fetch("REDIS_URL") { https://good-word.herokuapp.com } %>
   url: redis://redistogo:3dee2c90f2a00901a5fec04e240ea51c@tetra.redistogo.com:9400/
   # channel_prefix: message_me_production
